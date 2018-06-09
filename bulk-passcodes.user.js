@@ -1,7 +1,9 @@
 // ==UserScript==
 // @id             iitc-plugin-bulk-passcodes@artli
 // @name           IITC plugin: Bulk passcode submission
-// @version        0.0.1.20180610.0
+// @version        0.0.1.20180610.1
+// @author         https://github.com/artli
+// @license        Apache License 2.0
 // @category       Misc
 // @namespace      https://github.com/artli/iitc-plugin-bulk-passcodes
 // @description    Enable bulk passcode submission: if several passcodes are entered simultaneously, submit them consecutively with random delays
