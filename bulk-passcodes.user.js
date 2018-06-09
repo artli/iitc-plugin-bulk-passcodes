@@ -33,7 +33,7 @@ var loader = function(pluginInfo) {
         console.log("[bulk-passcodes] Redeeming " + code + " (" + codes.length + " left)");
         triggerRedeemInput(code);
         if (codes.length > 0) {
-            var timeout = 1000 + 3000 * Math.random();
+            var timeout = 2000 + 2500 * Math.random();
             setTimeout(redeemMany.bind(this, codes), timeout);
         }
     };
